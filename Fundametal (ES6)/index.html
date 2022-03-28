@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      function remove_in_range(arr, fromIndex = 0, removeQuantity = 1) {
+        return arr.splice(fromIndex, removeQuantity);
+      }
+      let givenArray = [1, 2, 3, 4, 5];
+      console.log("Original array :>> ", givenArray);
+      console.log("removed item :>> ", remove_in_range(givenArray));
+      console.log("original after removed :>> ", givenArray);
+      console.log("/-------------------------------------/")
+      let givenArray1 = [1, 2, 3, 4, 5];
+      console.log("Original array :>> ", givenArray1);
+      console.log("removed item :>> ", remove_in_range(givenArray1, 1, 3));
+      console.log("original after removed :>> ", givenArray1);
+      console.log("/-------------------------------------/")
+      let givenArray2 = [1, 2, 3, 4, 5];
+      console.log("Original array :>> ", givenArray2);
+      console.log("removed item :>> ", remove_in_range(givenArray2, 2, 2));
+      console.log("original after removed :>> ", givenArray2);
+    </script>
+  </body>
+</html>
