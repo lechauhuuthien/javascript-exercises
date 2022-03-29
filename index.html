@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      let obj = {
+        name: "CFD",
+        code: "CS2",
+        address: "Lầu 2, 666/46/29, Phường 14, Quận 10, TPHCM",
+      };
+
+      console.log(obj.code);
+      // expected output: "CS2"
+
+      delete obj.code;
+
+      console.log(obj.code);
+      // expected output: undefined
+    </script>
+  </body>
+</html>

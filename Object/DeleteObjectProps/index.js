@@ -1,0 +1,17 @@
+/**
+ * Delete a property (key) of an object 
+ */
+
+let obj = {
+    name: "CFD",
+    code: "CS2",
+    address: "Lầu 2, 666/46/29, Phường 14, Quận 10, TPHCM",
+};
+
+console.log(obj.code);
+// expected output: "CS2"
+
+delete obj.code;
+
+console.log(obj.code);
+// expected output: undefined
