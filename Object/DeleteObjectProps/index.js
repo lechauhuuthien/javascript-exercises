@@ -2,6 +2,11 @@
  * Delete a property (key) of an object 
  */
 
+
+/**
+ * Xóa một key của object
+ */
+
 let obj = {
     name: "CFD",
     code: "CS2",

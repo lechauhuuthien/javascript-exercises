@@ -4,6 +4,12 @@
     mm-dd-yyyy, mm/dd/yyyy or dd-mm-yyyy, dd/mm/yyyy
  */
 
+/**
+ * Tạo ra các biến có giá trị ngày giờ theo cấu trúc bên dưới
+    Kết quả mong muốn:
+    mm-dd-yyyy, mm/dd/yyyy or dd-mm-yyyy, dd/mm/yyyy
+ */
+
 let today = new Date();
 let dd = today.getDate();
 

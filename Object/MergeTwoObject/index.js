@@ -4,6 +4,15 @@
  * let obj2 = { name: 'CFD', code: 'CS2', address: 'Lầu 2, 666/46/29, Phường 14, Quận 10, TPHCM' }
  */
 
+
+/**
+ * Tạo một object mớt chứa cả giá trị của 2 objects bên dưới.
+ * Lưu ý: không được trùng key
+ * 
+ * let obj1 = { id: 001, name: 'CFD' }
+ * let obj2 = { name: 'CFD', code: 'CS2', address: 'Lầu 2, 666/46/29, Phường 14, Quận 10, TPHCM' }
+ */
+
 let obj1 = { id: 001, name: "CFD" };
 let obj2 = {
     name: "CFD",

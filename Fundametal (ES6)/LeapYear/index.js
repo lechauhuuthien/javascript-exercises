@@ -3,6 +3,11 @@
  * Flowchart link: https://www.w3resource.com/w3r_images/javascript-basic-image-exercise-6.png
  */
 
+/**
+ * Viết một Javascript function giúp xác định số năm đầu vào có phải làm năm nhuận hay không
+ * Link flowchart hướng dẫn logic: https://www.w3resource.com/w3r_images/javascript-basic-image-exercise-6.png
+ */
+
  function leapyear(year)
  {
  return (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);

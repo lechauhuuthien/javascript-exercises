@@ -4,6 +4,12 @@
     Use Array.prototype.filter() and Array.prototype.includes() to pull out the values that are not needed.
  */
 
+/**
+ * Viết một hàm javascript để lọc ra những giá trị 
+
+    Sử dụng Array.prototype.filter() và Array.prototype.includes() để lọc ra những item cần thiết
+ */
+
 const pull = (arr, ...args) => {
     let pulled = arr.filter((arrItem) => args.includes(arrItem));
     return pulled;

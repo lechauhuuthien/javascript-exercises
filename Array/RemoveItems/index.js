@@ -4,6 +4,12 @@
  * Write a JavaScript program to remove specified elements from the GIVEN INDEX(s) of a given array of elements.
  */
 
+/**
+ * Viết một javascript function giúp loại bỏ n phần từ của một array từ Trái
+ * Viết một javascript function giúp loại bỏ n phần từ của một array từ Phải
+ * Viết một javascript function giúp loại bỏ n phần từ của một array từ vị trí chỉ mục (index) yêu cầu
+ */
+
 function remove_from_right(arr, n = 1) {
     return arr.slice(n);
 }

@@ -2,6 +2,10 @@
  * Write a JavaScript program to remove duplicate items from an array (ignore case sensitivity).
  */
 
+/**
+ * Viết một javascript function giúp loại bỏ những phần tử trùng nhau trong một mảng
+ */
+
 // Solution 1
 let chars = ['A', 'B', 'A', 'C', 'B'];
 let uniqueChars = [...new Set(chars)];

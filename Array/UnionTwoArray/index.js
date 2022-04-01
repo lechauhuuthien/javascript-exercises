@@ -4,6 +4,14 @@
  * const arr2 = ["a", "b", "c", "d"];
  */
 
+/**
+ * Tạo một Array mới có tất cả giá trị của 2 array bên dưới. 
+ * Lưu ý, loại bỏ phần tử trùng nhau.
+ * 
+ * const arr1 = ["a", "b", "c"];
+ * const arr2 = ["a", "b", "c", "d"];
+ */
+
 const arr1 = ["a", "b", "c"];
 const arr2 = ["a", "b", "c", "d"];
 
