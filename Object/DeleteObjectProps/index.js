@@ -15,8 +15,10 @@ let obj = {
 
 console.log(obj.code);
 // expected output: "CS2"
+// Kết quả mong muốn: "CS2"
 
 delete obj.code;
 
 console.log(obj.code);
 // expected output: undefined
+// Kết quả mong muốn: undefined
